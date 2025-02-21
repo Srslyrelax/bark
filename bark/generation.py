@@ -16,7 +16,7 @@ from huggingface_hub import hf_hub_download
 
 from .model import GPTConfig, GPT
 from .model_fine import FineGPT, FineGPTConfig
-
+torch.serialization.add_safe_globals(["numpy.core.multiarray.scalar"])
 if (
     torch.cuda.is_available() and
     hasattr(torch.cuda, "amp") and
