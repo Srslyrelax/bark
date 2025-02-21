@@ -11,7 +11,7 @@ from torch.nn import functional as F
 
 from .model import GPT, GPTConfig, MLP
 
-
+torch.serialization.add_safe_globals(["numpy.core.multiarray.scalar"])
 class NonCausalSelfAttention(nn.Module):
     def __init__(self, config):
         super().__init__()
