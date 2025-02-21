@@ -21,12 +21,10 @@ dependencies = [
     "huggingface-hub>=0.14.1",
     "numpy",
     "scipy",
-    "tokenizers",
     "torch",
     "tqdm",
     "transformers",
-    "rust",
-    "cargo",
+
 ]
 
 [project.urls]
