@@ -3,13 +3,13 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "suno-bark"
+name = "fucko-bark"
 version = "0.0.1a"
 description = "Bark text to audio model"
 readme = "README.md"
 requires-python = ">=3.8"
 authors =  [
-    {name = "Suno Inc", email = "hello@suno.ai"},
+    {name = "Fucko Inc", email = "hello@fucko.ai"},
 ]
 # Apache 2.0
 license = {file = "LICENSE"}
